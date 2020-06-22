@@ -1,0 +1,2 @@
+1.ps -ef | grep zl.py | grep  -v grep | awk '{print $2}' | xargs kill -9    #查找一个名为zl.py的进程并kill
+2.进程至少包含一个线程，例：打开一个网页就打开了一个进程
